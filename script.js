@@ -1,0 +1,1 @@
+const gameHolder = document.getElementById('Game')
