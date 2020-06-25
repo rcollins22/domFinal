@@ -1,12 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html id ='Game'>
     <head>
-        <title>"Rashad's Uno</title>
+        <title>"Rashad's U-Kno</title>
         <link rel="stylesheet" type='text/css' href="style.css" >
     </head>
     <body>
-        <section>
-            <h1>U-KNO</h1>
+        <section class="bodies" id="titleBod">
+            <div class = "title"><h1>U-KNO</h1></div>
         </section>
+        <section class="bodies" id ="gameBod">
+            <div class='body' id="topG">
+                <div class="pCard" id ='topPly'><h6></h6></div>
+            </div>
+            <div class='body' id="midG">
+                <div class="pCard" id ='leftply'><h6></h6></div>
+                <div class='gCard'></div>
+                <div class="pCard" id ='rgtply'><h6></h6></div>
+            </div>
+            <div class='body' id="botG">
+                <div class="pCard" id ='Botply'><h6></h6></div>
+            </div>
+        </section>
+        <section class="bodies" id="scoreBod">
+            <div class="scoreDiv" id="sDiv1">
+                <h5></h5>
+                <span></span>
+            </div>
+            <div class="scoreDiv" id="sDiv2">
+                <h5></h5>
+                <span></span>
+            </div>
+            <div class="scoreDiv" id="sDiv3">
+                <h5></h5>
+                <span></span>
+            </div>
+            <div class="scoreDiv" id="sDiv4">
+                <h5></h5>
+                <span></span>
+            </div>
+        </section>
+        <script src="script.js"></script>
     </body>
+
+
 </html>
