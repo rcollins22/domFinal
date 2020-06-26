@@ -27,7 +27,8 @@ section{
     border-color: #c8c7ca;
     width:9%;
     height: 70%;
-    position: relative
+    position: relative;
+    border-radius: 3%;
 
 }
 .gCards{
@@ -36,6 +37,8 @@ section{
     width:9%;
     height: 70%;
     position: relative;
+    border-radius: 3%;
+
 }
 
 #botG{
