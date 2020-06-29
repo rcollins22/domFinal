@@ -1,41 +1,43 @@
 <!DOCTYPE html>
 <html id ='Game'>
     <head>
-        <title>"Rashad's U-Kno</title>
+        <title>U-KNO</title>
         <link rel="stylesheet" type='text/css' href="style.css" >
     </head>
     <body>
         <div class = "title"><h1>U-KNO</h1></div>
         <section class="bodies" id ="gameBod">
             <div class='body' id="topG">
-                <div class="pCard" id ='topPly'><h6>Player 2</h6></div>
+                <div class="pCards" id ='topPly'><h6>Player 3</h6></div>
             </div>
             <div class='body' id="midG">
-                <div class="pCard" id ='leftply'><h6>Player 1</h6></div>
-                <div class='gCards'>
-                    <div class=" dCard" id ='topCard'></div>
+                <div class="pCards" id ='leftply'><h6>Player 2</h6></div>
+                <div id='gCard'>
                 </div>
-                <div class="pCard" id ='rgtply'><h6>Player 3</h6></div>
+                <div class="pCards" id ='rgtply'><h6>Player 4</h6></div>
             </div>
             <div class='body' id="botG">
-                <div class="pCard" id ='Botply'><h6>Your Name</h6></div>
+                <div class="pCards" id ='Botply'><h6>Me</h6></div>
             </div>
         </section>
         <section class="bodies" id="scoreBod">
             <div class="scoreDiv" id="sDiv1">
-                <h5>You: <span></span></h5>          
+                <h5>You: <score></score></h5>          
             </div>
             <div class="scoreDiv" id="sDiv2">
-                <h5>Player 2: <span></span></h5>          
+                <h5>Player 2: <score></score></h5>    
             </div>
             <div class="scoreDiv" id="sDiv3">
-                <h5>Player 3: <span></span></h5>          
+                <h5>Player 3: <score></score></h5>          
             </div>
             <div class="scoreDiv" id="sDiv4">
-                <h5>Player 4: <span></span></h5>
+                <h5>Player 4: <score></score></h5>
             </div>
+            
         </section>
-        <script src="script.js"></script>
+        <script type= "text/javascript" src="script.js"></script>
+        <span></span>
+        <div id ='testDiv'></div>
     </body>
 
 
