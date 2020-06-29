@@ -31,6 +31,15 @@ section{
     border-radius: 3%;
 
 }
+.mCards{
+    border: solid 1px;
+    border-color: #c8c7ca;
+    width:9%;
+    height: 70%;
+    position: relative;
+    border-radius: 3%;
+
+}
 #gCard{
     border: solid 1px;
     border-color: #c8c7ca;
@@ -40,12 +49,13 @@ section{
     border-radius: 3%;
     text-align: center;
     font-size: 40px;
-    /* color: white; */
+    color: white;
 
 }
 
 #botG{
     align-content: center;
+    dip
 }
 h6 {
     position: absolute;
